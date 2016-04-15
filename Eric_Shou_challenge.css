@@ -1,0 +1,159 @@
+/*Main Image and Nav*/
+.container-fluid {
+  background:rgba(0,0,0,0.5);
+  opacity: 1;
+  background:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0,6,26,0.5) 20%, rgba(0,0,26,0.5) 30%,rgba(0,8,82,0.8)),url('image1.jpg');
+  height: 93vh;
+}
+
+.navbar {
+  background-color: white;
+  border-style: initial;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+#brand-name {
+  font-family: 'Karla', 'sans-serif';
+  font-size: 150%;
+  text-transform: uppercase;
+  color: #3d5c5c;
+}
+
+.glyphicon.glyphicon-menu-hamburger {
+  font-size: 150%;
+  text-align: center;
+}
+
+.btn.btn-default {
+  position: relative;
+  margin-left: 62em;
+  margin-top: 5px;
+  color: #3d5c5c;
+  border-style: none;
+}
+
+.homepage-description {
+  position: absolute;
+  color: white;
+  line-height:5%;
+  text-transform: uppercase;
+  top: 42%;
+  right: 20%;
+  word-wrap: break-word;
+}
+
+h1 {
+  font-family: 'Karla', 'sans-serif';
+  font-size: 340%;
+  line-height: 100%;
+}
+
+.company-offer {
+  font-family: 'Karla';
+  font-size: 100%;
+  margin-top: 10px;
+  float: left;
+  text-transform: none;
+}
+
+#rectangle {
+  color: #fff;
+  background-color: transparent;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  margin-right:10px;
+  width: 200px;
+  height: 50px;
+  border-style: solid;
+  border-width: 2px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+}
+
+#rectangle:hover {
+  background-color: #00e6e6;
+  border-color: #00e6e6;
+}
+
+.company-links {
+  font-family: 'Karla', 'sans-serif';
+  font-size: 107%;
+  line-height: 50px;
+  text-align: center;
+}
+
+a {
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#arrow {
+  position: absolute;
+  left: -15%;
+  top: 90%;
+  font-size: 300%;
+}
+
+#arrow:hover {
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transform: scale(1.6);
+}
+
+/*Second Section*/
+.second-section-header {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  font-family: 'Karla', 'sans-serif';
+  font-size: 200%;
+  text-align: center;
+  color: #3d5c5c;
+}
+
+#second-img {
+  margin-left: 150px;
+}
+
+.line1 {
+  position: absolute;
+  left: 10%;
+  margin-top: -130px;
+  background:black;
+  border-color: black;
+  transform: rotate(70deg);
+  width: 320px;
+}
+
+.line2 {
+  position: absolute;
+  left: 65%;
+  margin-top: -290px;
+  background:black;
+  border-color: black;
+  transform: rotate(65deg);
+  width: 320px;
+}
+
+.footer-container {
+  font-family: 'Karla', 'sans-serif';
+  margin-top: 150px;
+  text-align: center;
+  line-height: 50%;
+}
+
+#footer-title {
+  font-size: 120%;
+  text-transform: uppercase;
+}
